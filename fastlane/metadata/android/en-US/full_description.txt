@@ -1,0 +1,19 @@
+Requires Xenia Server v4.0+. Older servers will not be able to connect. 
+
+-------
+
+Xenia is secure workplace messaging from behind your firewall.
+
+- Discuss topics in private groups, one-to-one or team-wide
+- Easily share and view image files 
+- Connect in-house systems with webhooks and Slack-compatible integrations
+
+To use this app, you need a URL for a Xenia server. 
+
+-------
+
+Host your own server: https://about.xenia.com/download 
+
+Terms of Service: http://about.xenia.com/terms/ 
+
+Contribute to the project: https://github.com/xzl8028/xenia-mobile

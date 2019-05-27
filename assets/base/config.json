@@ -1,0 +1,50 @@
+{
+    "DefaultServerUrl": "",
+    "TestServerUrl": "http://localhost:8065",
+    "DefaultTheme": "default",
+    "ShowErrorsList": false,
+    "MinServerVersion": "4.0.0",
+    "EELearnURL": "about.xenia.com",
+    "TeamEditionLearnURL": "xenia.org",
+    "AboutTeamURL": "http://www.xenia.org/",
+    "AboutEnterpriseURL": "http://about.xenia.com/",
+    "PlatformNoticeURL": "https://about.xenia.com/platform-notice-txt/",
+    "MobileNoticeURL": "https://about.xenia.com/mobile-notice-txt/",
+    "SegmentApiKey": "",
+    "ExperimentalUsernamePressIsMention": false,
+
+    "HideEmailLoginExperimental": false,
+    "HideGitLabLoginExperimental": false,
+    "HideLDAPLoginExperimental": false,
+    "HideSAMLLoginExperimental": false,
+    "HideO365LoginExperimental": false,
+
+    "SentryEnabled": false,
+    "SentryDsnIos": "",
+    "SentryDsnAndroid": "",
+    "SentryOptions": {
+        "deactivateStacktraceMerging": true,
+        "autoBreadcrumbs": {
+            "xhr": false,
+            "console": true
+        }
+    },
+
+    "ExperimentalNormalizeMarkdownLinks": false,
+
+    "AutoSelectServerUrl": false,
+
+    "EnableMobileClientUpgrade": false,
+    "EnableMobileClientUpgradeUserSetting": false,
+    "EnableForceMobileClientUpgrade": false,
+    "MobileClientUpgradeAndroidApkLink": "https://about.xenia.com/xenia-android-app/",
+    "MobileClientUpgradeIosIpaLink": "https://about.xenia.com/xenia-ios-app/",
+
+    "ShowSentryDebugOptions": false,
+
+    "CustomRequestHeaders": {},
+
+    "TelemetryEnabled": false,
+    "TelemetryUrl": "",
+    "TelemetryApiKey": ""
+}
