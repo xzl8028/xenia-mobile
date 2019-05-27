@@ -4,11 +4,11 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {getRedirectLocation} from 'xenia-redux/actions/general';
-import {Preferences} from 'xenia-redux/constants';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getOpenGraphMetadataForUrl} from 'xenia-redux/selectors/entities/posts';
-import {getBool, getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getRedirectLocation} from 'mattermost-redux/actions/general';
+import {Preferences} from 'mattermost-redux/constants';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getOpenGraphMetadataForUrl} from 'mattermost-redux/selectors/entities/posts';
+import {getBool, getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {ViewTypes} from 'app/constants';
 import {getDimensions} from 'app/selectors/device';

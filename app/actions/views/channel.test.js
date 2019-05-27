@@ -6,7 +6,7 @@ import thunk from 'redux-thunk';
 
 import {handleSelectChannelByName} from 'app/actions/views/channel';
 
-jest.mock('xenia-redux/selectors/entities/channels', () => ({
+jest.mock('mattermost-redux/selectors/entities/channels', () => ({
     getChannel: () => ({data: 'received-channel-id'}),
     getCurrentChannelId: () => 'current-channel-id',
     getMyChannelMember: () => ({data: {member: {}}}),
@@ -20,7 +20,7 @@ describe('Actions.Views.Channel', () => {
     const MOCK_SELECT_CHANNEL_TYPE = 'MOCK_SELECT_CHANNEL_TYPE';
     const MOCK_RECEIVE_CHANNEL_TYPE = 'MOCK_RECEIVE_CHANNEL_TYPE';
 
-    const actions = require('xenia-redux/actions/channels');
+    const actions = require('mattermost-redux/actions/channels');
     actions.getChannelByNameAndTeamName = jest.fn((teamName) => {
         if (teamName) {
             return {

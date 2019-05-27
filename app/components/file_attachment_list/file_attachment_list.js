@@ -8,7 +8,7 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import {isDocument, isGif, isVideo} from 'app/utils/file';
 import ImageCacheManager from 'app/utils/image_cache_manager';

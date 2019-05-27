@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeam, getMyTeamsCount, getChannelDrawerBadgeCount} from 'xenia-redux/selectors/entities/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeam, getMyTeamsCount, getChannelDrawerBadgeCount} from 'mattermost-redux/selectors/entities/teams';
 
 import SwitchTeamsButton from './switch_teams_button';
 

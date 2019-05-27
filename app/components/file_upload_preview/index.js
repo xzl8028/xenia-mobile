@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import {connect} from 'react-redux';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {getDimensions} from 'app/selectors/device';
 import {checkForFileUploadingInChannel} from 'app/selectors/file';

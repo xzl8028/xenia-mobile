@@ -4,9 +4,9 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getTermsOfService, logout, updateMyTermsOfServiceStatus} from 'xenia-redux/actions/users';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTermsOfService, logout, updateMyTermsOfServiceStatus} from 'mattermost-redux/actions/users';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import TermsOfService from './terms_of_service.js';
 

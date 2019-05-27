@@ -4,10 +4,10 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {selectFocusedPostId, selectPost} from 'xenia-redux/actions/posts';
-import {clearSearch, getPinnedPosts} from 'xenia-redux/actions/search';
-import {RequestStatus} from 'xenia-redux/constants';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {selectFocusedPostId, selectPost} from 'mattermost-redux/actions/posts';
+import {clearSearch, getPinnedPosts} from 'mattermost-redux/actions/search';
+import {RequestStatus} from 'mattermost-redux/constants';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {loadChannelsByTeamName, loadThreadIfNecessary} from 'app/actions/views/channel';
 import {showSearchModal} from 'app/actions/views/search';

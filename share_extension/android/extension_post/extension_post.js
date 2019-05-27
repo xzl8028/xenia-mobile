@@ -21,8 +21,8 @@ import Video from 'react-native-video';
 import LocalAuth from 'react-native-local-auth';
 import RNFetchBlob from 'rn-fetch-blob';
 
-import {Preferences} from 'xenia-redux/constants';
-import {getFormattedFileSize, lookupMimeType} from 'xenia-redux/utils/file_utils';
+import {Preferences} from 'mattermost-redux/constants';
+import {getFormattedFileSize, lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
 import Loading from 'app/components/loading';
 import PaperPlane from 'app/components/paper_plane';

@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {login} from 'xenia-redux/actions/users';
+import {login} from 'mattermost-redux/actions/users';
 
 import Mfa from './mfa';
 

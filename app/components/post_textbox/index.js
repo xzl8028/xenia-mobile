@@ -4,13 +4,13 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {General} from 'xenia-redux/constants';
-import {createPost} from 'xenia-redux/actions/posts';
-import {setStatus} from 'xenia-redux/actions/users';
-import {getCurrentChannel, isCurrentChannelReadOnly} from 'xenia-redux/selectors/entities/channels';
-import {canUploadFilesOnMobile, getConfig} from 'xenia-redux/selectors/entities/general';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentUserId, getStatusForUserId} from 'xenia-redux/selectors/entities/users';
+import {General} from 'mattermost-redux/constants';
+import {createPost} from 'mattermost-redux/actions/posts';
+import {setStatus} from 'mattermost-redux/actions/users';
+import {getCurrentChannel, isCurrentChannelReadOnly} from 'mattermost-redux/selectors/entities/channels';
+import {canUploadFilesOnMobile, getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentUserId, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {executeCommand} from 'app/actions/views/command';
 import {addReactionToLatestPost} from 'app/actions/views/emoji';

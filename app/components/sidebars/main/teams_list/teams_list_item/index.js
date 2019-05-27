@@ -3,9 +3,9 @@
 
 import {connect} from 'react-redux';
 
-import {getCurrentUrl} from 'xenia-redux/selectors/entities/general';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeamId, getTeam, makeGetBadgeCountForTeamId} from 'xenia-redux/selectors/entities/teams';
+import {getCurrentUrl} from 'mattermost-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeamId, getTeam, makeGetBadgeCountForTeamId} from 'mattermost-redux/selectors/entities/teams';
 
 import {removeProtocol} from 'app/utils/url';
 

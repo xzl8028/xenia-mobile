@@ -4,8 +4,8 @@
 import {connect} from 'react-redux';
 
 import {getDimensions} from 'app/selectors/device';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {canDownloadFilesOnMobile} from 'xenia-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {canDownloadFilesOnMobile} from 'mattermost-redux/selectors/entities/general';
 
 import ImagePreview from './image_preview';
 

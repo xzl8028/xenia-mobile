@@ -10,7 +10,7 @@ import {
     View,
 } from 'react-native';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import ImageCacheManager from 'app/utils/image_cache_manager';
 import {makeStyleSheetFromTheme} from 'app/utils/theme';

@@ -10,7 +10,7 @@ import {
     View,
 } from 'react-native';
 
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {NavigationTypes} from 'app/constants';
 import {emptyFunction} from 'app/utils/general';

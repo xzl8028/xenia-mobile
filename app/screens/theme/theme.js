@@ -13,7 +13,7 @@ import ThemeTile from './theme_tile';
 import FormattedText from 'app/components/formatted_text';
 
 import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 const thumbnailImages = {
     default: require('assets/images/themes/xenia.png'),

@@ -5,8 +5,8 @@ import {PureComponent} from 'react';
 import {Platform} from 'react-native';
 import PropTypes from 'prop-types';
 
-import {Preferences} from 'xenia-redux/constants';
-import {getEmailInterval} from 'xenia-redux/utils/notify_props';
+import {Preferences} from 'mattermost-redux/constants';
+import {getEmailInterval} from 'mattermost-redux/utils/notify_props';
 
 import {getNotificationProps} from 'app/utils/notify_props';
 import {setNavigatorStyles} from 'app/utils/theme';

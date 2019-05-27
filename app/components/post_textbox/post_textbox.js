@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import {Alert, BackHandler, findNodeHandle, Keyboard, NativeModules, Platform, Text, TextInput, View} from 'react-native';
 import {intlShape} from 'react-intl';
 import Button from 'react-native-button';
-import {General, RequestStatus} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {getFormattedFileSize} from 'xenia-redux/utils/file_utils';
+import {General, RequestStatus} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 
 import AttachmentButton from 'app/components/attachment_button';
 import Fade from 'app/components/fade';

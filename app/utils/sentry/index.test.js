@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import {cleanUrlForLogging} from 'app/utils/sentry';
 

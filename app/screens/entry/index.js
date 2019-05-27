@@ -3,9 +3,9 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {setDeviceToken} from 'xenia-redux/actions/general';
-import {autoUpdateTimezone} from 'xenia-redux/actions/timezone';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {setDeviceToken} from 'mattermost-redux/actions/general';
+import {autoUpdateTimezone} from 'mattermost-redux/actions/timezone';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {isLandscape} from 'app/selectors/device';
 import {getDeviceTimezone, isTimezoneEnabled} from 'app/utils/timezone';

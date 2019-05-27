@@ -8,7 +8,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-import {General} from 'xenia-redux/constants';
+import {General} from 'mattermost-redux/constants';
 import BotTag from 'app/components/bot_tag';
 
 import {makeStyleSheetFromTheme} from 'app/utils/theme';

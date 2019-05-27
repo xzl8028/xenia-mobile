@@ -4,8 +4,8 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {doPostAction} from 'xenia-redux/actions/posts';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {doPostAction} from 'mattermost-redux/actions/posts';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import ActionButton from './action_button';
 

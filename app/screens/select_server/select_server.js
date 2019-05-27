@@ -21,7 +21,7 @@ import {
 import Button from 'react-native-button';
 import RNFetchBlob from 'rn-fetch-blob';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import ErrorText from 'app/components/error_text';
 import FormattedText from 'app/components/formatted_text';

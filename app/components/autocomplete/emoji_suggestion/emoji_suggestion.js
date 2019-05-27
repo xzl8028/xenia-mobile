@@ -11,7 +11,7 @@ import {
     View,
 } from 'react-native';
 
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
 import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';
 import Emoji from 'app/components/emoji';

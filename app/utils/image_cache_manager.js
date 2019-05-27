@@ -6,7 +6,7 @@
 import {Platform} from 'react-native';
 import RNFetchBlob from 'rn-fetch-blob';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import {DeviceTypes} from 'app/constants';
 import {

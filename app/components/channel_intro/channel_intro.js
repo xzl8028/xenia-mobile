@@ -9,8 +9,8 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
-import {getFullName} from 'xenia-redux/utils/user_utils';
-import {General} from 'xenia-redux/constants';
+import {getFullName} from 'mattermost-redux/utils/user_utils';
+import {General} from 'mattermost-redux/constants';
 import {injectIntl, intlShape} from 'react-intl';
 
 import ProfilePicture from 'app/components/profile_picture';

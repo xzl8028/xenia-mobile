@@ -17,7 +17,7 @@ import {
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 import sectionListGetItemLayout from 'react-native-section-list-get-item-layout';
 
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
 import Emoji from 'app/components/emoji';
 import FormattedText from 'app/components/formatted_text';

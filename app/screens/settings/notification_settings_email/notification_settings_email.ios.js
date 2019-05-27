@@ -8,7 +8,7 @@ import {
     View,
 } from 'react-native';
 
-import {Preferences} from 'xenia-redux/constants';
+import {Preferences} from 'mattermost-redux/constants';
 
 import FormattedText from 'app/components/formatted_text';
 import StatusBar from 'app/components/status_bar';

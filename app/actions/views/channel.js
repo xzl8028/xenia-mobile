@@ -5,34 +5,34 @@ import {batchActions} from 'redux-batched-actions';
 
 import {ViewTypes} from 'app/constants';
 
-import {UserTypes} from 'xenia-redux/action_types';
+import {UserTypes} from 'mattermost-redux/action_types';
 import {
     fetchMyChannelsAndMembers,
     getChannelByNameAndTeamName,
     markChannelAsRead,
     leaveChannel as serviceLeaveChannel, markChannelAsViewed,
     selectChannel,
-} from 'xenia-redux/actions/channels';
+} from 'mattermost-redux/actions/channels';
 import {
     getPosts,
     getPostsBefore,
     getPostsSince,
     getPostThread,
-} from 'xenia-redux/actions/posts';
-import {getFilesForPost} from 'xenia-redux/actions/files';
-import {savePreferences} from 'xenia-redux/actions/preferences';
-import {getTeamMembersByIds} from 'xenia-redux/actions/teams';
-import {getProfilesInChannel} from 'xenia-redux/actions/users';
-import {General, Preferences} from 'xenia-redux/constants';
-import {getPostIdsInChannel} from 'xenia-redux/selectors/entities/posts';
+} from 'mattermost-redux/actions/posts';
+import {getFilesForPost} from 'mattermost-redux/actions/files';
+import {savePreferences} from 'mattermost-redux/actions/preferences';
+import {getTeamMembersByIds} from 'mattermost-redux/actions/teams';
+import {getProfilesInChannel} from 'mattermost-redux/actions/users';
+import {General, Preferences} from 'mattermost-redux/constants';
+import {getPostIdsInChannel} from 'mattermost-redux/selectors/entities/posts';
 import {
     getChannel,
     getCurrentChannelId,
     getMyChannelMember,
     getRedirectChannelNameForTeam,
     getChannelsNameMapInTeam,
-} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentTeamId, getTeamByName} from 'xenia-redux/selectors/entities/teams';
+} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentTeamId, getTeamByName} from 'mattermost-redux/selectors/entities/teams';
 
 import telemetry from 'app/telemetry';
 
@@ -43,10 +43,10 @@ import {
     isDirectChannel,
     isGroupChannel,
     getChannelByName as getChannelByNameSelector,
-} from 'xenia-redux/utils/channel_utils';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {getLastCreateAt} from 'xenia-redux/utils/post_utils';
-import {getPreferencesByCategory} from 'xenia-redux/utils/preference_utils';
+} from 'mattermost-redux/utils/channel_utils';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {getLastCreateAt} from 'mattermost-redux/utils/post_utils';
+import {getPreferencesByCategory} from 'mattermost-redux/utils/preference_utils';
 
 import {INSERT_TO_COMMENT, INSERT_TO_DRAFT} from 'app/constants/post_textbox';
 import {isDirectChannelVisible, isGroupChannelVisible} from 'app/utils/channels';

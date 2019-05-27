@@ -4,11 +4,11 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getPostIdsInChannel} from 'xenia-redux/selectors/entities/posts';
-import {getMyChannelMember} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
+import {getPostIdsInChannel} from 'mattermost-redux/selectors/entities/posts';
+import {getMyChannelMember} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {loadPostsIfNecessaryWithRetry, markChannelViewedAndRead} from 'app/actions/views/channel';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import ChannelPeek from './channel_peek';
 

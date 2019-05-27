@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTeam} from 'xenia-redux/selectors/entities/teams';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTeam} from 'mattermost-redux/selectors/entities/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import TeamIcon from './team_icon';
 

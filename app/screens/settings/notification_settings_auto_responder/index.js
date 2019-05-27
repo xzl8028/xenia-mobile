@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentUserId, getStatusForUserId} from 'xenia-redux/selectors/entities/users';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentUserId, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
 import NotificationSettingsAutoResponder from './notification_settings_auto_responder';
 

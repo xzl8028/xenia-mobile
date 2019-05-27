@@ -3,15 +3,15 @@
 
 import {createSelector} from 'reselect';
 
-import {General} from 'xenia-redux/constants';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getMyChannels, getOtherChannels} from 'xenia-redux/selectors/entities/channels';
+import {General} from 'mattermost-redux/constants';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getMyChannels, getOtherChannels} from 'mattermost-redux/selectors/entities/channels';
 import {
     getCurrentUser, getCurrentUserId, getProfilesInCurrentChannel,
     getProfilesNotInCurrentChannel, getProfilesInCurrentTeam,
-} from 'xenia-redux/selectors/entities/users';
-import {sortChannelsByDisplayName} from 'xenia-redux/utils/channel_utils';
-import {sortByUsername} from 'xenia-redux/utils/user_utils';
+} from 'mattermost-redux/selectors/entities/users';
+import {sortChannelsByDisplayName} from 'mattermost-redux/utils/channel_utils';
+import {sortByUsername} from 'mattermost-redux/utils/user_utils';
 
 import * as Autocomplete from 'app/constants/autocomplete';
 import {getCurrentLocale} from 'app/selectors/i18n';

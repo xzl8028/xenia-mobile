@@ -11,7 +11,7 @@ import {
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {preventDoubleTap} from 'app/utils/tap';
 import {makeStyleSheetFromTheme} from 'app/utils/theme';
 

@@ -7,7 +7,7 @@ import {Alert, Clipboard, StyleSheet, View} from 'react-native';
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import SlideUpPanel from 'app/components/slide_up_panel';
 import {BOTTOM_MARGIN} from 'app/components/slide_up_panel/slide_up_panel';

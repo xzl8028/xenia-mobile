@@ -5,7 +5,7 @@ import {Platform} from 'react-native';
 import RNFetchBlob from 'rn-fetch-blob';
 import mimeDB from 'mime-db';
 
-import {lookupMimeType} from 'xenia-redux/utils/file_utils';
+import {lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
 import {DeviceTypes} from 'app/constants/';
 

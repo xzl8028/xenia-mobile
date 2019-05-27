@@ -3,17 +3,17 @@
 
 import {connect} from 'react-redux';
 
-import {General} from 'xenia-redux/constants';
+import {General} from 'mattermost-redux/constants';
 import {
     getCurrentChannelId,
     makeGetChannel,
     getMyChannelMember,
     shouldHideDefaultChannel,
-} from 'xenia-redux/selectors/entities/channels';
-import {getTheme, getTeammateNameDisplaySetting} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentUserId, getUser} from 'xenia-redux/selectors/entities/users';
-import {getUserIdFromChannelName, isChannelMuted} from 'xenia-redux/utils/channel_utils';
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+} from 'mattermost-redux/selectors/entities/channels';
+import {getTheme, getTeammateNameDisplaySetting} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentUserId, getUser} from 'mattermost-redux/selectors/entities/users';
+import {getUserIdFromChannelName, isChannelMuted} from 'mattermost-redux/utils/channel_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import {getDraftForChannel} from 'app/selectors/views';
 

@@ -4,12 +4,12 @@
 import {Platform} from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 
-import {setDeviceToken} from 'xenia-redux/actions/general';
-import {getPosts} from 'xenia-redux/actions/posts';
-import {Client4} from 'xenia-redux/client';
-import {General} from 'xenia-redux/constants';
-import {getCurrentUser} from 'xenia-redux/selectors/entities/users';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {setDeviceToken} from 'mattermost-redux/actions/general';
+import {getPosts} from 'mattermost-redux/actions/posts';
+import {Client4} from 'mattermost-redux/client';
+import {General} from 'mattermost-redux/constants';
+import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {markChannelViewedAndRead, retryGetPostsAction} from 'app/actions/views/channel';
 import {

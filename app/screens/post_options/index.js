@@ -11,15 +11,15 @@ import {
     unflagPost,
     unpinPost,
     removePost,
-} from 'xenia-redux/actions/posts';
-import {General, Permissions} from 'xenia-redux/constants';
-import {getChannel, getCurrentChannelId} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
-import {getConfig, getLicense, hasNewPermissions} from 'xenia-redux/selectors/entities/general';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {haveIChannelPermission} from 'xenia-redux/selectors/entities/roles';
-import {getCurrentTeamId, getCurrentTeamUrl} from 'xenia-redux/selectors/entities/teams';
-import {canEditPost} from 'xenia-redux/utils/post_utils';
+} from 'mattermost-redux/actions/posts';
+import {General, Permissions} from 'mattermost-redux/constants';
+import {getChannel, getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
+import {getConfig, getLicense, hasNewPermissions} from 'mattermost-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {haveIChannelPermission} from 'mattermost-redux/selectors/entities/roles';
+import {getCurrentTeamId, getCurrentTeamUrl} from 'mattermost-redux/selectors/entities/teams';
+import {canEditPost} from 'mattermost-redux/utils/post_utils';
 
 import {THREAD} from 'app/constants/screen';
 import {addReaction} from 'app/actions/views/emoji';

@@ -3,9 +3,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
-import {RequestStatus} from 'xenia-redux/constants';
+import {RequestStatus} from 'mattermost-redux/constants';
 
 import SelectTeam from './select_team.js';
 

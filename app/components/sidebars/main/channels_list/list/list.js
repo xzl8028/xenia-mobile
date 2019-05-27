@@ -15,8 +15,8 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import {General} from 'xenia-redux/constants';
-import {debounce} from 'xenia-redux/actions/helpers';
+import {General} from 'mattermost-redux/constants';
+import {debounce} from 'mattermost-redux/actions/helpers';
 
 import ChannelItem from 'app/components/sidebars/main/channels_list/channel_item';
 import {DeviceTypes, ListTypes} from 'app/constants';

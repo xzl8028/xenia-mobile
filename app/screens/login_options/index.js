@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getConfig, getLicense} from 'xenia-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import LoginOptions from './login_options';
 

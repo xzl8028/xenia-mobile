@@ -7,12 +7,12 @@ import {connect} from 'react-redux';
 import {setChannelDisplayName} from 'app/actions/views/channel';
 import {makeDirectChannel, makeGroupChannel} from 'app/actions/views/more_dms';
 
-import {getProfiles, getProfilesInTeam, searchProfiles} from 'xenia-redux/actions/users';
-import {General} from 'xenia-redux/constants';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getTeammateNameDisplaySetting, getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getCurrentUserId, getUsers} from 'xenia-redux/selectors/entities/users';
+import {getProfiles, getProfilesInTeam, searchProfiles} from 'mattermost-redux/actions/users';
+import {General} from 'mattermost-redux/constants';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getCurrentUserId, getUsers} from 'mattermost-redux/selectors/entities/users';
 
 import MoreDirectMessages from './more_dms';
 

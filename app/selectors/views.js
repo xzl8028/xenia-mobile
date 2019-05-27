@@ -3,7 +3,7 @@
 
 import {createSelector} from 'reselect';
 
-import {getCurrentChannelId} from 'xenia-redux/selectors/entities/channels';
+import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
 
 const emptyDraft = {
     draft: '',

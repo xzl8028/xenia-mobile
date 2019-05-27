@@ -11,9 +11,9 @@ import {
 
 import DeviceInfo from 'react-native-device-info';
 
-import {setSystemEmojis} from 'xenia-redux/actions/emojis';
-import {Client4} from 'xenia-redux/client';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {setSystemEmojis} from 'mattermost-redux/actions/emojis';
+import {Client4} from 'mattermost-redux/client';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {
     app,

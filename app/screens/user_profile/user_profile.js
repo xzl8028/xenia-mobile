@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import {displayUsername} from 'xenia-redux/utils/user_utils';
-import {getUserCurrentTimezone} from 'xenia-redux/utils/timezone_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
+import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
 import ProfilePicture from 'app/components/profile_picture';
 import FormattedText from 'app/components/formatted_text';

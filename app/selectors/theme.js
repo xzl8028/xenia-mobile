@@ -3,9 +3,9 @@
 
 import {createSelector} from 'reselect';
 
-import Preferences from 'xenia-redux/constants/preferences';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 export const getAllowedThemes = createSelector(
     getConfig,

@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import {intlShape} from 'react-intl';
 import {Platform, View} from 'react-native';
 
-import {debounce} from 'xenia-redux/actions/helpers';
-import {General} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {debounce} from 'mattermost-redux/actions/helpers';
+import {General} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import CustomList from 'app/components/custom_list';
 import ChannelListRow from 'app/components/custom_list/channel_list_row';

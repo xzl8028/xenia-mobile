@@ -14,7 +14,7 @@ import {
 import {KeyboardTrackingView} from 'react-native-keyboard-tracking-view';
 
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {app} from 'app/xenia';
 

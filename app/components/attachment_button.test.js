@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import {VALID_MIME_TYPES} from 'app/screens/edit_profile/edit_profile';
 import AttachmentButton from './attachment_button';

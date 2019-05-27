@@ -8,7 +8,7 @@ import {
     Platform,
 } from 'react-native';
 
-import {RequestStatus} from 'xenia-redux/constants';
+import {RequestStatus} from 'mattermost-redux/constants';
 
 import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';
 import {makeStyleSheetFromTheme} from 'app/utils/theme';

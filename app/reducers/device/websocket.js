@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {GeneralTypes, UserTypes} from 'xenia-redux/action_types';
+import {GeneralTypes, UserTypes} from 'mattermost-redux/action_types';
 
 function getInitialState() {
     return {

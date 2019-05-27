@@ -5,7 +5,7 @@ import assert from 'assert';
 
 import Config from 'assets/config.json';
 
-import Client from 'xenia-redux/client/client';
+import Client from 'mattermost-redux/client/client';
 
 const PASSWORD = 'password1';
 

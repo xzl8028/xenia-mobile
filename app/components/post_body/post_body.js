@@ -11,7 +11,7 @@ import {
 import {intlShape} from 'react-intl';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import {Posts} from 'xenia-redux/constants';
+import {Posts} from 'mattermost-redux/constants';
 
 import CombinedSystemMessage from 'app/components/combined_system_message';
 import FormattedText from 'app/components/formatted_text';

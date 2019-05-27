@@ -9,7 +9,7 @@ import {CircularProgress} from 'react-native-circular-progress';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {intlShape} from 'react-intl';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import FormattedText from 'app/components/formatted_text';
 import xeniaBucket from 'app/xenia_bucket';

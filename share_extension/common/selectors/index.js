@@ -3,17 +3,17 @@
 
 import {createSelector} from 'reselect';
 
-import {General} from 'xenia-redux/constants';
-import {getAllChannels, getChannelsInTeam, getMyChannelMemberships} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUser, getUsers} from 'xenia-redux/selectors/entities/users';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getLastPostPerChannel} from 'xenia-redux/selectors/entities/posts';
+import {General} from 'mattermost-redux/constants';
+import {getAllChannels, getChannelsInTeam, getMyChannelMemberships} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUser, getUsers} from 'mattermost-redux/selectors/entities/users';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getLastPostPerChannel} from 'mattermost-redux/selectors/entities/posts';
 import {
     getMyPreferences,
     getTeammateNameDisplaySetting,
     getVisibleTeammate,
     getVisibleGroupIds,
-} from 'xenia-redux/selectors/entities/preferences';
+} from 'mattermost-redux/selectors/entities/preferences';
 
 import {
     completeDirectChannelDisplayName,
@@ -22,8 +22,8 @@ import {
     getUserIdFromChannelName,
     isAutoClosed,
     sortChannelsByDisplayName,
-} from 'xenia-redux/utils/channel_utils';
-import {createIdsSelector} from 'xenia-redux/utils/helpers';
+} from 'mattermost-redux/utils/channel_utils';
+import {createIdsSelector} from 'mattermost-redux/utils/helpers';
 
 export const getChannelIdsForExtensionTeam = createIdsSelector(
     (state) => state.views.extension.selectedTeamId,

@@ -18,13 +18,13 @@ import {Navigation, NativeEventsReceiver} from 'react-native-navigation';
 import {Provider} from 'react-redux';
 import semver from 'semver';
 
-import {Client4} from 'xenia-redux/client';
-import {setAppState, setServerVersion} from 'xenia-redux/actions/general';
-import {loadMe, logout} from 'xenia-redux/actions/users';
-import {close as closeWebSocket} from 'xenia-redux/actions/websocket';
-import {General} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {Client4} from 'mattermost-redux/client';
+import {setAppState, setServerVersion} from 'mattermost-redux/actions/general';
+import {loadMe, logout} from 'mattermost-redux/actions/users';
+import {close as closeWebSocket} from 'mattermost-redux/actions/websocket';
+import {General} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {selectDefaultChannel} from 'app/actions/views/channel';
 import {setDeviceDimensions, setDeviceOrientation, setDeviceAsTablet, setStatusBarHeight} from 'app/actions/device';

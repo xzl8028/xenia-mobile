@@ -1,9 +1,9 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {getDirectChannelName} from 'xenia-redux/utils/channel_utils';
-import {createDirectChannel, createGroupChannel} from 'xenia-redux/actions/channels';
-import {getProfilesByIds, getStatusesByIds} from 'xenia-redux/actions/users';
+import {getDirectChannelName} from 'mattermost-redux/utils/channel_utils';
+import {createDirectChannel, createGroupChannel} from 'mattermost-redux/actions/channels';
+import {getProfilesByIds, getStatusesByIds} from 'mattermost-redux/actions/users';
 import {handleSelectChannel, toggleDMChannel, toggleGMChannel} from 'app/actions/views/channel';
 
 export function makeDirectChannel(otherUserId, switchToChannel = true) {

@@ -7,7 +7,7 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 import RNFetchBlob from 'rn-fetch-blob';
 import {AnimatedCircularProgress} from 'react-native-circular-progress';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import FileAttachmentImage from 'app/components/file_attachment_list/file_attachment_image';
 import FileAttachmentIcon from 'app/components/file_attachment_list/file_attachment_icon';

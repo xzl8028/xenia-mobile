@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {General} from 'xenia-redux/constants';
-import Preferences from 'xenia-redux/constants/preferences';
+import {General} from 'mattermost-redux/constants';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import UserStatus from './user_status';
 

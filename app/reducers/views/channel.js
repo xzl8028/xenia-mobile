@@ -6,7 +6,7 @@ import {
     ChannelTypes,
     FileTypes,
     PostTypes,
-} from 'xenia-redux/action_types';
+} from 'mattermost-redux/action_types';
 
 import {ViewTypes} from 'app/constants';
 

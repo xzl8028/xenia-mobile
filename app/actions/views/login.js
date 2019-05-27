@@ -1,13 +1,13 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {getDataRetentionPolicy} from 'xenia-redux/actions/general';
-import {GeneralTypes} from 'xenia-redux/action_types';
-import {getSessions} from 'xenia-redux/actions/users';
-import {autoUpdateTimezone} from 'xenia-redux/actions/timezone';
-import {Client4} from 'xenia-redux/client';
-import {getConfig, getLicense} from 'xenia-redux/selectors/entities/general';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
+import {getDataRetentionPolicy} from 'mattermost-redux/actions/general';
+import {GeneralTypes} from 'mattermost-redux/action_types';
+import {getSessions} from 'mattermost-redux/actions/users';
+import {autoUpdateTimezone} from 'mattermost-redux/actions/timezone';
+import {Client4} from 'mattermost-redux/client';
+import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {ViewTypes} from 'app/constants';
 import {app} from 'app/xenia';

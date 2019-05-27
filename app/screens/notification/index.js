@@ -7,10 +7,10 @@ import {connect} from 'react-redux';
 import {loadFromPushNotification} from 'app/actions/views/root';
 import {getDimensions} from 'app/selectors/device';
 
-import {getChannel} from 'xenia-redux/selectors/entities/channels';
-import {getTeammateNameDisplaySetting, getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getUser} from 'xenia-redux/selectors/entities/users';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
+import {getChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getUser} from 'mattermost-redux/selectors/entities/users';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import Notification from './notification';
 

@@ -9,7 +9,7 @@ import {
     View,
 } from 'react-native';
 
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import ProfilePicture from 'app/components/profile_picture';
 import BotTag from 'app/components/bot_tag';

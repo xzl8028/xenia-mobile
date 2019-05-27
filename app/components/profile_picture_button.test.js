@@ -3,11 +3,11 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import ProfilePictureButton from './profile_picture_button.js';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 describe('profile_picture_button', () => {
     const navigator = {

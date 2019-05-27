@@ -17,9 +17,9 @@ import FormattedText from 'app/components/formatted_text';
 import ProfilePicture from 'app/components/profile_picture';
 import {changeOpacity} from 'app/utils/theme';
 
-import {isDirectChannel} from 'xenia-redux/utils/channel_utils';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+import {isDirectChannel} from 'mattermost-redux/utils/channel_utils';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import logo from 'assets/images/icon.png';
 import webhookIcon from 'assets/images/icons/webhook.jpg';

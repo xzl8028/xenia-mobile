@@ -11,7 +11,7 @@ When filling in a section please remove the help text and the above text.
 #### Checklist
 [Place an '[x]' (no spaces) in all applicable fields. Please remove unrelated fields.]
 - [ ] Added or updated unit tests (required for all new features)
-- [ ] All new/modified APIs include changes to [xenia-redux](https://github.com/xzl8028/xenia-redux) (please link)
+- [ ] All new/modified APIs include changes to [mattermost-redux](https://github.com/xzl8028/mattermost-redux) (please link)
 - [ ] Has UI changes
 - [ ] Includes text changes and localization file updates
 

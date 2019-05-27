@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import ThemeTile from './theme_tile';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import Theme from './theme';
 

@@ -30,7 +30,7 @@ import {setMfaPreflightDone, getMfaPreflightDone} from 'app/utils/security';
 
 import telemetry from 'app/telemetry';
 
-import {RequestStatus} from 'xenia-redux/constants';
+import {RequestStatus} from 'mattermost-redux/constants';
 
 const mfaExpectedErrors = ['mfa.validate_token.authenticate.app_error', 'ent.mfa.validate_token.authenticate.app_error'];
 

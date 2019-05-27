@@ -4,13 +4,13 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {createPost, removePost} from 'xenia-redux/actions/posts';
-import {Posts} from 'xenia-redux/constants';
-import {isChannelReadOnlyById} from 'xenia-redux/selectors/entities/channels';
-import {getPost, makeGetCommentCountForPost, makeIsPostCommentMention} from 'xenia-redux/selectors/entities/posts';
-import {getUser, getCurrentUserId} from 'xenia-redux/selectors/entities/users';
-import {getMyPreferences, getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {isPostFlagged, isSystemMessage} from 'xenia-redux/utils/post_utils';
+import {createPost, removePost} from 'mattermost-redux/actions/posts';
+import {Posts} from 'mattermost-redux/constants';
+import {isChannelReadOnlyById} from 'mattermost-redux/selectors/entities/channels';
+import {getPost, makeGetCommentCountForPost, makeIsPostCommentMention} from 'mattermost-redux/selectors/entities/posts';
+import {getUser, getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
+import {getMyPreferences, getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {isPostFlagged, isSystemMessage} from 'mattermost-redux/utils/post_utils';
 
 import {insertToDraft, setPostTooltipVisible} from 'app/actions/views/channel';
 

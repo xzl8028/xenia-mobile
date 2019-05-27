@@ -17,9 +17,9 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
 import {changeOpacity} from 'app/utils/theme';
 
-import {General} from 'xenia-redux/constants';
-import {sortChannelsByDisplayName} from 'xenia-redux/utils/channel_utils';
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+import {General} from 'mattermost-redux/constants';
+import {sortChannelsByDisplayName} from 'mattermost-redux/utils/channel_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 import {t} from 'app/utils/i18n';
 
 import ChannelItem from 'app/components/sidebars/main/channels_list/channel_item';

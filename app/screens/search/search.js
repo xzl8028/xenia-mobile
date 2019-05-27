@@ -13,9 +13,9 @@ import {
 } from 'react-native';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import {debounce} from 'xenia-redux/actions/helpers';
-import {RequestStatus} from 'xenia-redux/constants';
-import {isDateLine, getDateForDateLine} from 'xenia-redux/utils/post_list';
+import {debounce} from 'mattermost-redux/actions/helpers';
+import {RequestStatus} from 'mattermost-redux/constants';
+import {isDateLine, getDateForDateLine} from 'mattermost-redux/utils/post_list';
 
 import Autocomplete from 'app/components/autocomplete';
 import KeyboardLayout from 'app/components/layout/keyboard_layout';

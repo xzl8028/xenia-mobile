@@ -10,8 +10,8 @@ import {
     View,
 } from 'react-native';
 
-import {getLastPostIndex} from 'xenia-redux/utils/post_list';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import AnnouncementBanner from 'app/components/announcement_banner';
 import PostList from 'app/components/post_list';

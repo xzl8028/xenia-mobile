@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import {Alert} from 'react-native';
-import {Posts} from 'xenia-redux/constants';
+import {Posts} from 'mattermost-redux/constants';
 
 export function fromAutoResponder(post) {
     return Boolean(post.type && (post.type === Posts.SYSTEM_AUTO_RESPONDER));

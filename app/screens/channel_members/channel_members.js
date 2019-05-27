@@ -10,9 +10,9 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import {debounce} from 'xenia-redux/actions/helpers';
-import {General} from 'xenia-redux/constants';
-import {filterProfilesMatchingTerm} from 'xenia-redux/utils/user_utils';
+import {debounce} from 'mattermost-redux/actions/helpers';
+import {General} from 'mattermost-redux/constants';
+import {filterProfilesMatchingTerm} from 'mattermost-redux/utils/user_utils';
 
 import Loading from 'app/components/loading';
 import CustomList, {FLATLIST, SECTIONLIST} from 'app/components/custom_list';

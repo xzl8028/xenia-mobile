@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import {Sentry} from 'react-native-sentry';
 
-import {getFormattedFileSize} from 'xenia-redux/utils/file_utils';
+import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 
 import SettingsItem from 'app/screens/settings/settings_item';
 import StatusBar from 'app/components/status_bar';

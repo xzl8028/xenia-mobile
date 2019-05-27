@@ -678,14 +678,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---
 
-## xenia-redux
+## mattermost-redux
 
-This product contains 'xenia-redux' by Xenia.
+This product contains 'mattermost-redux' by Xenia.
 
 Common code (API client, Redux stores, logic, utility functions) for building a Xenia client
 
 * HOMEPAGE:
-  * https://github.com/xzl8028/xenia-redux
+  * https://github.com/xzl8028/mattermost-redux
 
 * LICENSE: Apache-2.0
 

@@ -6,9 +6,9 @@ import {Linking, NativeModules, Platform, Text} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import {setGenericPassword, getGenericPassword, resetGenericPassword} from 'react-native-keychain';
 
-import {loadMe} from 'xenia-redux/actions/users';
-import {Client4} from 'xenia-redux/client';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {loadMe} from 'mattermost-redux/actions/users';
+import {Client4} from 'mattermost-redux/client';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {setDeepLinkURL} from 'app/actions/views/root';
 import {ViewTypes} from 'app/constants';

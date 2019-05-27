@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {clearSearch} from 'xenia-redux/actions/search';
+import {clearSearch} from 'mattermost-redux/actions/search';
 
 import {showSearchModal} from 'app/actions/views/search';
 

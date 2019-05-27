@@ -7,8 +7,8 @@ import {Keyboard, Platform} from 'react-native';
 import {intlShape} from 'react-intl';
 import {KeyboardTrackingView} from 'react-native-keyboard-tracking-view';
 
-import {General, RequestStatus} from 'xenia-redux/constants';
-import {getLastPostIndex} from 'xenia-redux/utils/post_list';
+import {General, RequestStatus} from 'mattermost-redux/constants';
+import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 
 import {THREAD} from 'app/constants/screen';
 

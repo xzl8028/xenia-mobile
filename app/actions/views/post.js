@@ -1,8 +1,8 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {Posts} from 'xenia-redux/constants';
-import {doPostAction, receivedNewPost} from 'xenia-redux/actions/posts';
+import {Posts} from 'mattermost-redux/constants';
+import {doPostAction, receivedNewPost} from 'mattermost-redux/actions/posts';
 
 import {ViewTypes} from 'app/constants';
 

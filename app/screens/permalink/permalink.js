@@ -14,9 +14,9 @@ import * as Animatable from 'react-native-animatable';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import {General} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {getLastPostIndex} from 'xenia-redux/utils/post_list';
+import {General} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 
 import FormattedText from 'app/components/formatted_text';
 import Loading from 'app/components/loading';

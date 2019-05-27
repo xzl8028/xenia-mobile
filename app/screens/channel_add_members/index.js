@@ -4,12 +4,12 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getTeamStats} from 'xenia-redux/actions/teams';
-import {getProfilesNotInChannel, searchProfiles} from 'xenia-redux/actions/users';
-import {getCurrentChannel} from 'xenia-redux/selectors/entities/channels';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getCurrentUserId, getProfilesNotInCurrentChannel} from 'xenia-redux/selectors/entities/users';
+import {getTeamStats} from 'mattermost-redux/actions/teams';
+import {getProfilesNotInChannel, searchProfiles} from 'mattermost-redux/actions/users';
+import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getCurrentUserId, getProfilesNotInCurrentChannel} from 'mattermost-redux/selectors/entities/users';
 
 import {handleAddChannelMembers} from 'app/actions/views/channel_add_members';
 

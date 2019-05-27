@@ -4,14 +4,14 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {getReactionsForPost, removeReaction} from 'xenia-redux/actions/posts';
-import {makeGetReactionsForPost, getPost} from 'xenia-redux/selectors/entities/posts';
-import {haveIChannelPermission} from 'xenia-redux/selectors/entities/roles';
-import {hasNewPermissions} from 'xenia-redux/selectors/entities/general';
-import Permissions from 'xenia-redux/constants/permissions';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getChannel} from 'xenia-redux/selectors/entities/channels';
+import {getReactionsForPost, removeReaction} from 'mattermost-redux/actions/posts';
+import {makeGetReactionsForPost, getPost} from 'mattermost-redux/selectors/entities/posts';
+import {haveIChannelPermission} from 'mattermost-redux/selectors/entities/roles';
+import {hasNewPermissions} from 'mattermost-redux/selectors/entities/general';
+import Permissions from 'mattermost-redux/constants/permissions';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 
 import {addReaction} from 'app/actions/views/emoji';
 

@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Platform, SectionList} from 'react-native';
 
-import {RequestStatus} from 'xenia-redux/constants';
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
-import {debounce} from 'xenia-redux/actions/helpers';
+import {RequestStatus} from 'mattermost-redux/constants';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
+import {debounce} from 'mattermost-redux/actions/helpers';
 
 import {CHANNEL_MENTION_REGEX, CHANNEL_MENTION_SEARCH_REGEX} from 'app/constants/autocomplete';
 import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';

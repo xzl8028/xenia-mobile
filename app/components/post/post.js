@@ -22,9 +22,9 @@ import {preventDoubleTap} from 'app/utils/tap';
 import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
 import {t} from 'app/utils/i18n';
 
-import {Posts} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {isPostEphemeral, isPostPendingOrFailed, isSystemMessage} from 'xenia-redux/utils/post_utils';
+import {Posts} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {isPostEphemeral, isPostPendingOrFailed, isSystemMessage} from 'mattermost-redux/utils/post_utils';
 
 import Config from 'assets/config';
 

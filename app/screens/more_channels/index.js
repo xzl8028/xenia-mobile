@@ -5,17 +5,17 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {createSelector} from 'reselect';
 
-import {General} from 'xenia-redux/constants';
-import {getChannels, joinChannel, searchChannels} from 'xenia-redux/actions/channels';
-import {getChannelsInCurrentTeam, getMyChannelMemberships} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUserId, getCurrentUserRoles} from 'xenia-redux/selectors/entities/users';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {showCreateOption} from 'xenia-redux/utils/channel_utils';
-import {isAdmin, isSystemAdmin} from 'xenia-redux/utils/user_utils';
+import {General} from 'mattermost-redux/constants';
+import {getChannels, joinChannel, searchChannels} from 'mattermost-redux/actions/channels';
+import {getChannelsInCurrentTeam, getMyChannelMemberships} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUserId, getCurrentUserRoles} from 'mattermost-redux/selectors/entities/users';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {showCreateOption} from 'mattermost-redux/utils/channel_utils';
+import {isAdmin, isSystemAdmin} from 'mattermost-redux/utils/user_utils';
 
 import {handleSelectChannel, setChannelDisplayName} from 'app/actions/views/channel';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getConfig, getLicense} from 'xenia-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import MoreChannels from './more_channels';
 

@@ -4,12 +4,12 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {startPeriodicStatusUpdates, stopPeriodicStatusUpdates, logout} from 'xenia-redux/actions/users';
-import {RequestStatus} from 'xenia-redux/constants';
-import {getCurrentChannelId} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {shouldShowTermsOfService} from 'xenia-redux/selectors/entities/users';
+import {startPeriodicStatusUpdates, stopPeriodicStatusUpdates, logout} from 'mattermost-redux/actions/users';
+import {RequestStatus} from 'mattermost-redux/constants';
+import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {shouldShowTermsOfService} from 'mattermost-redux/selectors/entities/users';
 
 import {
     loadChannelsIfNecessary,

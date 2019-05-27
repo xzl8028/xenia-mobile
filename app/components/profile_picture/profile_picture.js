@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Image, Platform, View} from 'react-native';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import UserStatus from 'app/components/user_status';
 import ImageCacheManager from 'app/utils/image_cache_manager';

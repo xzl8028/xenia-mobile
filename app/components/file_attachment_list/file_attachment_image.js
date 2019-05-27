@@ -9,7 +9,7 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import ProgressiveImage from 'app/components/progressive_image';
 import {isGif} from 'app/utils/file';

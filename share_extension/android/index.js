@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import {Provider} from 'react-redux';
 import {IntlProvider} from 'react-intl';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import {getTranslations} from 'app/i18n';
 import {getCurrentLocale} from 'app/selectors/i18n';

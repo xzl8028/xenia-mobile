@@ -1,8 +1,8 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {Preferences} from 'xenia-redux/constants';
-import {getUserIdFromChannelName} from 'xenia-redux/utils/channel_utils';
+import {Preferences} from 'mattermost-redux/constants';
+import {getUserIdFromChannelName} from 'mattermost-redux/utils/channel_utils';
 
 export function isDirectChannelVisible(userId, myPreferences, channel) {
     const channelId = getUserIdFromChannelName(userId, channel.name);

@@ -4,10 +4,10 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {selectPost} from 'xenia-redux/actions/posts';
-import {makeGetChannel} from 'xenia-redux/selectors/entities/channels';
-import {getPost} from 'xenia-redux/selectors/entities/posts';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {selectPost} from 'mattermost-redux/actions/posts';
+import {makeGetChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getPost} from 'mattermost-redux/selectors/entities/posts';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {loadThreadIfNecessary} from 'app/actions/views/channel';
 

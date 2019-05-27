@@ -5,7 +5,7 @@ import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import {shallow} from 'enzyme';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import LinearGradient from 'react-native-linear-gradient';
 

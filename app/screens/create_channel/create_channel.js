@@ -9,8 +9,8 @@ import {
     InteractionManager,
 } from 'react-native';
 
-import {General, RequestStatus} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {General, RequestStatus} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import EditChannelInfo from 'app/components/edit_channel_info';
 import {setNavigatorStyles} from 'app/utils/theme';

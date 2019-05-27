@@ -12,14 +12,14 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Badge from 'app/components/badge';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {preventDoubleTap} from 'app/utils/tap';
 import {makeStyleSheetFromTheme} from 'app/utils/theme';
 
 import telemetry from 'app/telemetry';
 
-import {getUnreadsInCurrentTeam} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentTeamId, getTeamMemberships} from 'xenia-redux/selectors/entities/teams';
+import {getUnreadsInCurrentTeam} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentTeamId, getTeamMemberships} from 'mattermost-redux/selectors/entities/teams';
 
 class ChannelDrawerButton extends PureComponent {
     static propTypes = {

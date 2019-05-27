@@ -1,13 +1,13 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {GeneralTypes} from 'xenia-redux/action_types';
-import {Client4} from 'xenia-redux/client';
-import {General} from 'xenia-redux/constants';
-import {fetchMyChannelsAndMembers} from 'xenia-redux/actions/channels';
-import {getClientConfig, getDataRetentionPolicy, getLicenseConfig} from 'xenia-redux/actions/general';
-import {receivedNewPost} from 'xenia-redux/actions/posts';
-import {getMyTeams, getMyTeamMembers, selectTeam} from 'xenia-redux/actions/teams';
+import {GeneralTypes} from 'mattermost-redux/action_types';
+import {Client4} from 'mattermost-redux/client';
+import {General} from 'mattermost-redux/constants';
+import {fetchMyChannelsAndMembers} from 'mattermost-redux/actions/channels';
+import {getClientConfig, getDataRetentionPolicy, getLicenseConfig} from 'mattermost-redux/actions/general';
+import {receivedNewPost} from 'mattermost-redux/actions/posts';
+import {getMyTeams, getMyTeamMembers, selectTeam} from 'mattermost-redux/actions/teams';
 
 import {ViewTypes} from 'app/constants';
 import {recordTime} from 'app/utils/segment';
@@ -92,7 +92,7 @@ export function purgeOfflineStore() {
     return {type: General.OFFLINE_STORE_PURGE};
 }
 
-// A non-optimistic version of the createPost action in xenia-redux with the file handling
+// A non-optimistic version of the createPost action in mattermost-redux with the file handling
 // removed since it's not needed.
 export function createPostForNotificationReply(post) {
     return async (dispatch, getState) => {

@@ -9,7 +9,7 @@ import {
     View,
 } from 'react-native';
 
-import * as Utils from 'xenia-redux/utils/file_utils.js';
+import * as Utils from 'mattermost-redux/utils/file_utils.js';
 
 import {isDocument, isGif} from 'app/utils/file';
 import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';

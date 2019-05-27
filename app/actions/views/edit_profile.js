@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {updateMe, setDefaultProfileImage} from 'xenia-redux/actions/users';
+import {updateMe, setDefaultProfileImage} from 'mattermost-redux/actions/users';
 
 import {ViewTypes} from 'app/constants';
 

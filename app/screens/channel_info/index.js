@@ -11,12 +11,12 @@ import {
     deleteChannel,
     unfavoriteChannel,
     updateChannelNotifyProps,
-} from 'xenia-redux/actions/channels';
-import {getCustomEmojisInText} from 'xenia-redux/actions/emojis';
-import {selectFocusedPostId} from 'xenia-redux/actions/posts';
-import {clearPinnedPosts} from 'xenia-redux/actions/search';
-import {General} from 'xenia-redux/constants';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+} from 'mattermost-redux/actions/channels';
+import {getCustomEmojisInText} from 'mattermost-redux/actions/emojis';
+import {selectFocusedPostId} from 'mattermost-redux/actions/posts';
+import {clearPinnedPosts} from 'mattermost-redux/actions/search';
+import {General} from 'mattermost-redux/constants';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {
     canManageChannelMembers,
     getCurrentChannel,
@@ -24,11 +24,11 @@ import {
     getSortedFavoriteChannelIds,
     getMyCurrentChannelMembership,
     isCurrentChannelReadOnly,
-} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUserId, getUser, getStatusForUserId, getCurrentUserRoles} from 'xenia-redux/selectors/entities/users';
-import {areChannelMentionsIgnored, getUserIdFromChannelName, isChannelMuted, showDeleteOption, showManagementOptions} from 'xenia-redux/utils/channel_utils';
-import {isAdmin as checkIsAdmin, isChannelAdmin as checkIsChannelAdmin, isSystemAdmin as checkIsSystemAdmin} from 'xenia-redux/utils/user_utils';
-import {getConfig, getLicense} from 'xenia-redux/selectors/entities/general';
+} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUserId, getUser, getStatusForUserId, getCurrentUserRoles} from 'mattermost-redux/selectors/entities/users';
+import {areChannelMentionsIgnored, getUserIdFromChannelName, isChannelMuted, showDeleteOption, showManagementOptions} from 'mattermost-redux/utils/channel_utils';
+import {isAdmin as checkIsAdmin, isChannelAdmin as checkIsChannelAdmin, isSystemAdmin as checkIsSystemAdmin} from 'mattermost-redux/utils/user_utils';
+import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import {
     closeDMChannel,

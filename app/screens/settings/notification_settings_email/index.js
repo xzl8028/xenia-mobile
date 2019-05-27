@@ -4,16 +4,16 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {Preferences} from 'xenia-redux/constants';
+import {Preferences} from 'mattermost-redux/constants';
 
-import {savePreferences} from 'xenia-redux/actions/preferences';
-import {updateMe} from 'xenia-redux/actions/users';
+import {savePreferences} from 'mattermost-redux/actions/preferences';
+import {updateMe} from 'mattermost-redux/actions/users';
 
-import {getConfig} from 'xenia-redux/selectors/entities/general';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {
     get as getPreference,
     getTheme,
-} from 'xenia-redux/selectors/entities/preferences';
+} from 'mattermost-redux/selectors/entities/preferences';
 
 import NotificationSettingsEmail from './notification_settings_email';
 

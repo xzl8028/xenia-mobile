@@ -5,8 +5,8 @@ import {Platform} from 'react-native';
 import RNFetchBlob from 'rn-fetch-blob';
 import urlParse from 'url-parse';
 
-import {Client4} from 'xenia-redux/client';
-import {ClientError} from 'xenia-redux/client/client4';
+import {Client4} from 'mattermost-redux/client';
+import {ClientError} from 'mattermost-redux/client/client4';
 
 import xeniaBucket from 'app/xenia_bucket';
 import xeniaManaged from 'app/xenia_managed';

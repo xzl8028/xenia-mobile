@@ -3,9 +3,9 @@
 
 import {connect} from 'react-redux';
 
-import {getCurrentChannel, getMyCurrentChannelMembership} from 'xenia-redux/selectors/entities/channels';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {isChannelMuted} from 'xenia-redux/utils/channel_utils';
+import {getCurrentChannel, getMyCurrentChannelMembership} from 'mattermost-redux/selectors/entities/channels';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
 import ChannelTitle from './channel_title';
 

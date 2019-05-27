@@ -3,7 +3,7 @@
 
 import {StyleSheet} from 'react-native';
 
-import * as ThemeUtils from 'xenia-redux/utils/theme_utils';
+import * as ThemeUtils from 'mattermost-redux/utils/theme_utils';
 
 export function makeStyleSheetFromTheme(getStyleFromTheme) {
     return ThemeUtils.makeStyleFromTheme((theme) => {

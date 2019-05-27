@@ -1,9 +1,9 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {UserTypes} from 'xenia-redux/action_types';
-import {General} from 'xenia-redux/constants';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
+import {UserTypes} from 'mattermost-redux/action_types';
+import {General} from 'mattermost-redux/constants';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 export function setCurrentUserStatusOffline() {
     return (dispatch, getState) => {

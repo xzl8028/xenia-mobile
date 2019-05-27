@@ -4,9 +4,9 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {autocompleteUsers} from 'xenia-redux/actions/users';
-import {getCurrentChannelId, getDefaultChannel} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
+import {autocompleteUsers} from 'mattermost-redux/actions/users';
+import {getCurrentChannelId, getDefaultChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 
 import {
     filterMembersInChannel,
@@ -14,7 +14,7 @@ import {
     filterMembersInCurrentTeam,
     getMatchTermForAtMention,
 } from 'app/selectors/autocomplete';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import AtMention from './at_mention';
 

@@ -9,7 +9,7 @@ import RNFetchBlob from 'rn-fetch-blob';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {DocumentPickerUtil} from 'react-native-document-picker';
 
-import {Client4} from 'xenia-redux/client';
+import {Client4} from 'mattermost-redux/client';
 
 import {buildFileUploadData, encodeHeaderURIStringToUTF8} from 'app/utils/file';
 import {emptyFunction} from 'app/utils/general';
@@ -25,7 +25,7 @@ import ProfilePictureButton from 'app/components/profile_picture_button';
 import ProfilePicture from 'app/components/profile_picture';
 import xeniaBucket from 'app/xenia_bucket';
 
-import {getFormattedFileSize} from 'xenia-redux/utils/file_utils';
+import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 
 const MAX_SIZE = 20 * 1024 * 1024;
 export const VALID_MIME_TYPES = [

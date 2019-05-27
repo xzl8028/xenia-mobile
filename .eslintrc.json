@@ -1,7 +1,7 @@
 {
   "extends": [
-    "./node_modules/eslint-config-xenia/.eslintrc.json",
-    "./node_modules/eslint-config-xenia/.eslintrc-react.json"
+    "./node_modules/eslint-config-mattermost/.eslintrc.json",
+    "./node_modules/eslint-config-mattermost/.eslintrc-react.json"
   ],
   "settings": {
     "react": {

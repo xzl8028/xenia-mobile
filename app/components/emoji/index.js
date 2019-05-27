@@ -3,11 +3,11 @@
 
 import {connect} from 'react-redux';
 
-import {getCustomEmojisByName} from 'xenia-redux/selectors/entities/emojis';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {Client4} from 'xenia-redux/client';
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
+import {getCustomEmojisByName} from 'mattermost-redux/selectors/entities/emojis';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {Client4} from 'mattermost-redux/client';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
 import {EmojiIndicesByAlias, Emojis} from 'app/utils/emojis';
 

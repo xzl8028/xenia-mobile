@@ -19,7 +19,7 @@ import {CircularProgress} from 'react-native-circular-progress';
 import {intlShape} from 'react-intl';
 import tinyColor from 'tinycolor2';
 
-import {getFileUrl} from 'xenia-redux/utils/file_utils.js';
+import {getFileUrl} from 'mattermost-redux/utils/file_utils.js';
 
 import {DeviceTypes} from 'app/constants/';
 import xeniaBucket from 'app/xenia_bucket';

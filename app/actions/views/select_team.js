@@ -1,11 +1,11 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {TeamTypes} from 'xenia-redux/action_types';
-import {getMyTeams} from 'xenia-redux/actions/teams';
-import {RequestStatus} from 'xenia-redux/constants';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {TeamTypes} from 'mattermost-redux/action_types';
+import {getMyTeams} from 'mattermost-redux/actions/teams';
+import {RequestStatus} from 'mattermost-redux/constants';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {NavigationTypes} from 'app/constants';
 import {selectFirstAvailableTeam} from 'app/utils/teams';

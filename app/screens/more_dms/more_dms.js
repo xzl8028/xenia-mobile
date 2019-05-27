@@ -6,11 +6,11 @@ import PropTypes from 'prop-types';
 import {intlShape} from 'react-intl';
 import {Platform, View} from 'react-native';
 
-import {debounce} from 'xenia-redux/actions/helpers';
-import {General} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import {getGroupDisplayNameFromUserIds} from 'xenia-redux/utils/channel_utils';
-import {displayUsername, filterProfilesMatchingTerm} from 'xenia-redux/utils/user_utils';
+import {debounce} from 'mattermost-redux/actions/helpers';
+import {General} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import {getGroupDisplayNameFromUserIds} from 'mattermost-redux/utils/channel_utils';
+import {displayUsername, filterProfilesMatchingTerm} from 'mattermost-redux/utils/user_utils';
 
 import CustomList, {FLATLIST, SECTIONLIST} from 'app/components/custom_list';
 import UserListRow from 'app/components/custom_list/user_list_row';

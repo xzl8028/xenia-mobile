@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getSupportedTimezones} from 'xenia-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getSupportedTimezones} from 'mattermost-redux/selectors/entities/general';
 
 import SelectTimezone from './select_timezone';
 

@@ -4,10 +4,10 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getProfiles, searchProfiles} from 'xenia-redux/actions/users';
-import {getChannels, searchChannels} from 'xenia-redux/actions/channels';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getProfiles, searchProfiles} from 'mattermost-redux/actions/users';
+import {getChannels, searchChannels} from 'mattermost-redux/actions/channels';
 
 import SelectorScreen from './selector_screen';
 

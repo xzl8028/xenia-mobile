@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import {Image} from 'react-native';
 import PropTypes from 'prop-types';
 
-import {General} from 'xenia-redux/constants';
+import {General} from 'mattermost-redux/constants';
 
 import {changeOpacity} from 'app/utils/theme';
 

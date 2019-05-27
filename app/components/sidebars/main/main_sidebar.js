@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import {General, WebsocketEvents} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {General, WebsocketEvents} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import SafeAreaView from 'app/components/safe_area_view';
 import DrawerLayout, {TABLET_WIDTH} from 'app/components/sidebars/drawer_layout';

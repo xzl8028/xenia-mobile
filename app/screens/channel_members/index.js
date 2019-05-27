@@ -5,10 +5,10 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 import {handleRemoveChannelMembers} from 'app/actions/views/channel_members';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentChannel, canManageChannelMembers} from 'xenia-redux/selectors/entities/channels';
-import {makeGetProfilesInChannel} from 'xenia-redux/selectors/entities/users';
-import {getProfilesInChannel, searchProfiles} from 'xenia-redux/actions/users';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentChannel, canManageChannelMembers} from 'mattermost-redux/selectors/entities/channels';
+import {makeGetProfilesInChannel} from 'mattermost-redux/selectors/entities/users';
+import {getProfilesInChannel, searchProfiles} from 'mattermost-redux/actions/users';
 
 import ChannelMembers from './channel_members';
 

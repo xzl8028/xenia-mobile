@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {
     View,
 } from 'react-native';
-import {General} from 'xenia-redux/constants';
+import {General} from 'mattermost-redux/constants';
 import {intlShape} from 'react-intl';
 
 import FormattedText from 'app/components/formatted_text';

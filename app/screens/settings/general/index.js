@@ -4,12 +4,12 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {clearErrors} from 'xenia-redux/actions/errors';
-import {getCurrentUrl, getConfig} from 'xenia-redux/selectors/entities/general';
-import {getJoinableTeams} from 'xenia-redux/selectors/entities/teams';
+import {clearErrors} from 'mattermost-redux/actions/errors';
+import {getCurrentUrl, getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getJoinableTeams} from 'mattermost-redux/selectors/entities/teams';
 
 import {purgeOfflineStore} from 'app/actions/views/root';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {removeProtocol} from 'app/utils/url';
 
 import Settings from './settings';

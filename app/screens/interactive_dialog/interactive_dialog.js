@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {ScrollView, View} from 'react-native';
 
-import {checkDialogElementForError, checkIfErrorsMatchElements} from 'xenia-redux/utils/integration_utils';
+import {checkDialogElementForError, checkIfErrorsMatchElements} from 'mattermost-redux/utils/integration_utils';
 
 import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
 

@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {intlShape} from 'react-intl';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import FormattedText from 'app/components/formatted_text';
 import {preventDoubleTap} from 'app/utils/tap';

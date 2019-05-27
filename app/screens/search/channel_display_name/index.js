@@ -3,9 +3,9 @@
 
 import {connect} from 'react-redux';
 
-import {makeGetChannel} from 'xenia-redux/selectors/entities/channels';
-import {getPost} from 'xenia-redux/selectors/entities/posts';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {makeGetChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getPost} from 'mattermost-redux/selectors/entities/posts';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import ChannelDisplayName from './channel_display_name';
 

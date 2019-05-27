@@ -15,7 +15,7 @@ import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_lo
 import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
 import {t} from 'app/utils/i18n';
 
-import {RequestStatus} from 'xenia-redux/constants';
+import {RequestStatus} from 'mattermost-redux/constants';
 
 export default class EditPost extends PureComponent {
     static propTypes = {

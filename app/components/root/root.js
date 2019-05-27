@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {IntlProvider} from 'react-intl';
 import {Platform} from 'react-native';
 
-import {Client4} from 'xenia-redux/client';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {Client4} from 'mattermost-redux/client';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import {NavigationTypes, ViewTypes} from 'app/constants';
 import {getTranslations} from 'app/i18n';

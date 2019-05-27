@@ -3,11 +3,11 @@
 
 import {connect} from 'react-redux';
 
-import {getCurrentChannelId} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUrl} from 'xenia-redux/selectors/entities/general';
+import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUrl} from 'mattermost-redux/selectors/entities/general';
 
 import {getCurrentLocale} from 'app/selectors/i18n';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {removeProtocol} from 'app/utils/url';
 
 import Root from './root';

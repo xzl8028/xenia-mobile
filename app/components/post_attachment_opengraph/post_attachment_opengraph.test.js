@@ -9,7 +9,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import PostAttachmentOpenGraph from './post_attachment_opengraph';
 

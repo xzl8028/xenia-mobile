@@ -3,7 +3,7 @@
 
 import {createSelector} from 'reselect';
 
-import {getCurrentUserId, getUser} from 'xenia-redux/selectors/entities/users';
+import {getCurrentUserId, getUser} from 'mattermost-redux/selectors/entities/users';
 
 const getOtherUserIdForDm = createSelector(
     (state, channel) => channel,

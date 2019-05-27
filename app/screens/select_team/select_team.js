@@ -11,8 +11,8 @@ import {
     View,
 } from 'react-native';
 
-import {RequestStatus} from 'xenia-redux/constants';
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import {RequestStatus} from 'mattermost-redux/constants';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import FailedNetworkAction from 'app/components/failed_network_action';
 import FormattedText from 'app/components/formatted_text';

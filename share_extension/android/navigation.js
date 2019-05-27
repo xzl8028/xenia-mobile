@@ -3,7 +3,7 @@
 
 import {createAppContainer, createStackNavigator} from 'react-navigation';
 
-import {Preferences} from 'xenia-redux/constants';
+import {Preferences} from 'mattermost-redux/constants';
 
 import ExtensionChannels from './extension_channels';
 import ExtensionPost from './extension_post';

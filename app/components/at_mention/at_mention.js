@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Clipboard, Platform, Text} from 'react-native';
 import {intlShape} from 'react-intl';
 
-import {displayUsername} from 'xenia-redux/utils/user_utils';
+import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import CustomPropTypes from 'app/constants/custom_prop_types';
 import xeniaManaged from 'app/xenia_managed';

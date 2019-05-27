@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import Button from 'react-native-button';
 
-import {RequestStatus} from 'xenia-redux/constants';
+import {RequestStatus} from 'mattermost-redux/constants';
 
 import ErrorText from 'app/components/error_text';
 import FormattedText from 'app/components/formatted_text';

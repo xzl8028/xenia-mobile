@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import keyMirror from 'xenia-redux/utils/key_mirror';
+import keyMirror from 'mattermost-redux/utils/key_mirror';
 
 export const UpgradeTypes = {
     CAN_UPGRADE: 'can_upgrade',

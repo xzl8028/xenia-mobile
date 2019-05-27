@@ -17,7 +17,7 @@ import {DocumentPicker} from 'react-native-document-picker';
 import ImagePicker from 'react-native-image-picker';
 import Permissions from 'react-native-permissions';
 
-import {lookupMimeType} from 'xenia-redux/utils/file_utils';
+import {lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
 import {PermissionTypes} from 'app/constants';
 import {changeOpacity} from 'app/utils/theme';

@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Xenia, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {addChannelMember} from 'xenia-redux/actions/channels';
+import {addChannelMember} from 'mattermost-redux/actions/channels';
 
 export function handleAddChannelMembers(channelId, members) {
     return async (dispatch, getState) => {

@@ -3,9 +3,9 @@
 
 import {connect} from 'react-redux';
 
-import {getUsersByUsername} from 'xenia-redux/selectors/entities/users';
+import {getUsersByUsername} from 'mattermost-redux/selectors/entities/users';
 
-import {getTeammateNameDisplaySetting, getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import AtMention from './at_mention';
 

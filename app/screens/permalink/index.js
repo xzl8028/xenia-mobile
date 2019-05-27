@@ -4,17 +4,17 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getChannel as getChannelAction, joinChannel} from 'xenia-redux/actions/channels';
+import {getChannel as getChannelAction, joinChannel} from 'mattermost-redux/actions/channels';
 import {
     getPostsAround,
     getPostThread,
     selectPost,
-} from 'xenia-redux/actions/posts';
-import {makeGetChannel, getMyChannelMemberships} from 'xenia-redux/selectors/entities/channels';
-import {makeGetPostIdsAroundPost, getPost} from 'xenia-redux/selectors/entities/posts';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getCurrentUserId} from 'xenia-redux/selectors/entities/users';
+} from 'mattermost-redux/actions/posts';
+import {makeGetChannel, getMyChannelMemberships} from 'mattermost-redux/selectors/entities/channels';
+import {makeGetPostIdsAroundPost, getPost} from 'mattermost-redux/selectors/entities/posts';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {
     handleSelectChannel,

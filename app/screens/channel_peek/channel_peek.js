@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Platform, View} from 'react-native';
 
-import {getLastPostIndex} from 'xenia-redux/utils/post_list';
+import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 
 import PostList from 'app/components/post_list';
 import {makeStyleSheetFromTheme} from 'app/utils/theme';

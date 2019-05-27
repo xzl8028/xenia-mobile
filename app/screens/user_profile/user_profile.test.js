@@ -3,7 +3,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Preferences from 'xenia-redux/constants/preferences';
+import Preferences from 'mattermost-redux/constants/preferences';
 
 import UserProfile from './user_profile.js';
 import BotTag from 'app/components/bot_tag';

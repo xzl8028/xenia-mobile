@@ -4,9 +4,9 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {logout, setStatus} from 'xenia-redux/actions/users';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentUser, getStatusForUserId} from 'xenia-redux/selectors/entities/users';
+import {logout, setStatus} from 'mattermost-redux/actions/users';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentUser, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {isLandscape, getDimensions} from 'app/selectors/device';
 

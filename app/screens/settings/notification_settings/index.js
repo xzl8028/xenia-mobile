@@ -4,12 +4,12 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getCurrentUser, getStatusForUserId} from 'xenia-redux/selectors/entities/users';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import {getMyPreferences, getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
+import {getCurrentUser, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import {getMyPreferences, getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
-import {updateMe} from 'xenia-redux/actions/users';
+import {updateMe} from 'mattermost-redux/actions/users';
 
 import NotificationSettings from './notification_settings';
 

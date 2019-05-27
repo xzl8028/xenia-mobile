@@ -4,11 +4,11 @@
 import {connect} from 'react-redux';
 import {createSelector} from 'reselect';
 
-import {General} from 'xenia-redux/constants';
-import {makeGetChannel} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentUserId, getUser, makeGetProfilesInChannel} from 'xenia-redux/selectors/entities/users';
+import {General} from 'mattermost-redux/constants';
+import {makeGetChannel} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentUserId, getUser, makeGetProfilesInChannel} from 'mattermost-redux/selectors/entities/users';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {getChannelMembersForDm} from 'app/selectors/channel';
 

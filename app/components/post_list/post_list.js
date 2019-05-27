@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {FlatList, StyleSheet} from 'react-native';
 
-import EventEmitter from 'xenia-redux/utils/event_emitter';
-import * as PostListUtils from 'xenia-redux/utils/post_list';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
+import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
 import CombinedUserActivityPost from 'app/components/combined_user_activity_post';
 import Post from 'app/components/post';

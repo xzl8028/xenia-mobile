@@ -4,10 +4,10 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {joinChannel} from 'xenia-redux/actions/channels';
-import {getTeams} from 'xenia-redux/actions/teams';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentTeamId, getMyTeamsCount} from 'xenia-redux/selectors/entities/teams';
+import {joinChannel} from 'mattermost-redux/actions/channels';
+import {getTeams} from 'mattermost-redux/actions/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentTeamId, getMyTeamsCount} from 'mattermost-redux/selectors/entities/teams';
 
 import {setChannelDisplayName, setChannelLoading} from 'app/actions/views/channel';
 import {makeDirectChannel} from 'app/actions/views/more_dms';

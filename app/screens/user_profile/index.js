@@ -7,11 +7,11 @@ import {connect} from 'react-redux';
 import {setChannelDisplayName} from 'app/actions/views/channel';
 import {makeDirectChannel} from 'app/actions/views/more_dms';
 
-import {getTeammateNameDisplaySetting, getTheme, getBool} from 'xenia-redux/selectors/entities/preferences';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
-import Preferences from 'xenia-redux/constants/preferences';
-import {loadBot} from 'xenia-redux/actions/bots';
-import {getBotAccounts} from 'xenia-redux/selectors/entities/bots';
+import {getTeammateNameDisplaySetting, getTheme, getBool} from 'mattermost-redux/selectors/entities/preferences';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
+import Preferences from 'mattermost-redux/constants/preferences';
+import {loadBot} from 'mattermost-redux/actions/bots';
+import {getBotAccounts} from 'mattermost-redux/selectors/entities/bots';
 
 import {isTimezoneEnabled} from 'app/utils/timezone';
 

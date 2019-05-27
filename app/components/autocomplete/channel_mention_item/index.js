@@ -3,17 +3,17 @@
 
 import {connect} from 'react-redux';
 
-import {General} from 'xenia-redux/constants';
+import {General} from 'mattermost-redux/constants';
 
-import {getChannel} from 'xenia-redux/selectors/entities/channels';
+import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import {getChannelNameForSearchAutocomplete} from 'app/selectors/channel';
 
 import ChannelMentionItem from './channel_mention_item';
 
-import {getUser} from 'xenia-redux/selectors/entities/users';
+import {getUser} from 'mattermost-redux/selectors/entities/users';
 
 function mapStateToProps(state, ownProps) {
     const channel = getChannel(state, ownProps.channelId);

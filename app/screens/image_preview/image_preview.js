@@ -22,7 +22,7 @@ import {intlShape} from 'react-intl';
 import Permissions from 'react-native-permissions';
 import Gallery from 'react-native-image-gallery';
 
-import EventEmitter from 'xenia-redux/utils/event_emitter';
+import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
 import FileAttachmentDocument from 'app/components/file_attachment_list/file_attachment_document';
 import FileAttachmentIcon from 'app/components/file_attachment_list/file_attachment_icon';

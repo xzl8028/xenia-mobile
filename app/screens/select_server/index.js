@@ -4,16 +4,16 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {getPing, resetPing, setServerVersion} from 'xenia-redux/actions/general';
-import {login} from 'xenia-redux/actions/users';
+import {getPing, resetPing, setServerVersion} from 'mattermost-redux/actions/general';
+import {login} from 'mattermost-redux/actions/users';
 
 import {setLastUpgradeCheck} from 'app/actions/views/client_upgrade';
 import {handleSuccessfulLogin, scheduleExpiredNotification} from 'app/actions/views/login';
 import {loadConfigAndLicense} from 'app/actions/views/root';
 import {handleServerUrlChanged} from 'app/actions/views/select_server';
 import getClientUpgrade from 'app/selectors/client_upgrade';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getConfig, getLicense} from 'xenia-redux/selectors/entities/general';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import SelectServer from './select_server';
 

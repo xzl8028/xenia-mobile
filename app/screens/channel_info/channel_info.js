@@ -11,7 +11,7 @@ import {
     View,
 } from 'react-native';
 
-import {General, Users} from 'xenia-redux/constants';
+import {General, Users} from 'mattermost-redux/constants';
 
 import StatusBar from 'app/components/status_bar';
 import {preventDoubleTap} from 'app/utils/tap';

@@ -4,21 +4,21 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {selectFocusedPostId, selectPost} from 'xenia-redux/actions/posts';
-import {clearSearch, removeSearchTerms, searchPostsWithParams, getMorePostsForSearch} from 'xenia-redux/actions/search';
-import {getCurrentChannelId, filterPostIds} from 'xenia-redux/selectors/entities/channels';
-import {getCurrentTeamId} from 'xenia-redux/selectors/entities/teams';
-import {getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {isMinimumServerVersion} from 'xenia-redux/utils/helpers';
-import {getUserCurrentTimezone} from 'xenia-redux/utils/timezone_utils';
-import {getCurrentUser} from 'xenia-redux/selectors/entities/users';
+import {selectFocusedPostId, selectPost} from 'mattermost-redux/actions/posts';
+import {clearSearch, removeSearchTerms, searchPostsWithParams, getMorePostsForSearch} from 'mattermost-redux/actions/search';
+import {getCurrentChannelId, filterPostIds} from 'mattermost-redux/selectors/entities/channels';
+import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
+import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
+import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
+import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
 import {loadChannelsByTeamName, loadThreadIfNecessary} from 'app/actions/views/channel';
 import {isLandscape} from 'app/selectors/device';
 import {makePreparePostIdsForSearchPosts} from 'app/selectors/post_list';
 import {handleSearchDraftChanged} from 'app/actions/views/search';
 import {getDeviceUtcOffset, getUtcOffsetForTimeZone, isTimezoneEnabled} from 'app/utils/timezone';
-import {getConfig} from 'xenia-redux/selectors/entities/general';
+import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import Search from './search';
 

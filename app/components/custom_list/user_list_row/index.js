@@ -3,8 +3,8 @@
 
 import {connect} from 'react-redux';
 
-import {getTeammateNameDisplaySetting, getTheme} from 'xenia-redux/selectors/entities/preferences';
-import {getCurrentUserId, getUser} from 'xenia-redux/selectors/entities/users';
+import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';
+import {getCurrentUserId, getUser} from 'mattermost-redux/selectors/entities/users';
 
 import UserListRow from './user_list_row';
 
